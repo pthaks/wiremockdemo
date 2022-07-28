@@ -1,0 +1,23 @@
+{
+  "request": {
+    "urlPath": "/api/users/initiate",
+    "method": "POST",
+	"headers": {
+      "Content-Type": {
+        "equalTo": "application/json"
+      }
+    },
+	"bodyPatterns": [ {
+         "matchesJsonPath" : "[?(@.accountStatus == 'INITIATE')]"
+      }
+    ]
+	
+  },
+  "response": {
+    "status": 201,
+    "bodyFileName": "sc4_post_create_user_response.json",
+	"headers": {
+          "Content-Type": "application/json"
+    }
+ }
+}

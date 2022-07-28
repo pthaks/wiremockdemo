@@ -1,0 +1,15 @@
+{
+  "request": {
+    "urlPath": "/api/users/search",
+    "method": "GET",
+	"queryParameters": {
+		"id": {
+			"doesNotMatch": "2"
+		}
+	}
+  },
+  "response": {
+    "status": 400,
+	"statusMessage" : "Resource is NOT found"
+ }
+}

@@ -1,0 +1,16 @@
+[
+	{
+		"id": 1,
+		"email": "nivesh.desai@yopmail.com",
+		"first_name": "Nivesh",
+		"last_name": "Desai",
+		"avatar": "https://www.avatarfig.com/ids/nivesh.jpg"
+	},
+	{
+		"id": 2,
+		"email": "sagar.k@yopmail.com",
+		"first_name": "Sagar",
+		"last_name": "K",
+		"avatar": "https://www.avatarfig.com/ids/sagar.jpg"
+	}
+]

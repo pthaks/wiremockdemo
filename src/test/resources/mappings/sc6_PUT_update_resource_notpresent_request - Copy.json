@@ -1,0 +1,18 @@
+{
+  "request": {
+    "urlPath": "/api/users/345",
+    "method": "PUT",
+	"headers": {
+      "Content-Type": {
+        "equalTo": "application/json"
+      }
+    }
+  },
+  "response": {
+    "status": 400,
+    "bodyFileName": "sc6_put_update_resource_notfound_response.json",
+	"headers": {
+          "Content-Type": "application/json"
+    }
+ }
+}

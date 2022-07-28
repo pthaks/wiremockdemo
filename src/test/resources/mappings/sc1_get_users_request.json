@@ -1,0 +1,15 @@
+{
+  "request": {
+    "urlPath": "/api/users",
+    "method": "GET",
+	"queryParameters" : {
+      "id" : {
+        "absent" : true
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "sc1_get_users_response.json"
+  }
+}

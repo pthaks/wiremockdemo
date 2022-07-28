@@ -1,0 +1,10 @@
+{
+  "request": {
+    "urlPath": "/api/users/2",
+    "method": "GET"
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "sc2_get_users_byId_response.json"
+  }
+}

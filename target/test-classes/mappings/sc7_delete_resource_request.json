@@ -1,0 +1,10 @@
+{
+  "request": {
+    "urlPath": "/api/users/2",
+    "method": "DELETE"
+  },
+  "response": {
+    "status": 204,
+	"statusMessage" : "Resource is deleted"
+ }
+}

@@ -1,0 +1,22 @@
+{
+  "request": {
+    "urlPath": "/api/users/2",
+    "method": "PUT",
+	"headers": {
+      "Content-Type": {
+        "equalTo": "application/json"
+      }
+    },
+	"bodyPatterns": [ {
+         "matchesJsonPath": "$.address[?(@.line1 == 'shimpoli')]" 
+      }
+    ]
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "sc5_put_update_response.json",
+	"headers": {
+          "Content-Type": "application/json"
+    }
+ }
+}
